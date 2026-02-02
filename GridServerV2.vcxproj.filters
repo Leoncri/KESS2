@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quelldateien">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Headerdateien">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Quelldateien\Auxillary">
+      <UniqueIdentifier>{70936094-46e4-4a5b-92ee-d835955dd70e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Communication">
+      <UniqueIdentifier>{de8e745b-6461-41c8-9f40-31b52ce44045}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Devices">
+      <UniqueIdentifier>{20716950-40fb-4a95-b062-3e564ef5248c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Grid">
+      <UniqueIdentifier>{1922f2dc-7867-4c9c-bfe0-f9ab23cf2445}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\Network">
+      <UniqueIdentifier>{15049bcb-702a-4df9-bdab-456462037c18}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Auxillary">
+      <UniqueIdentifier>{22c22177-111f-4726-adf5-37cff0ec1942}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Communication">
+      <UniqueIdentifier>{b75d1c83-6b69-4ac1-a46e-b08d6240d245}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Devices">
+      <UniqueIdentifier>{198f23e6-b0d4-4859-afa5-475dd92b185a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Grid">
+      <UniqueIdentifier>{98b10857-80f5-41fc-a9c3-7294c492ec88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\Network">
+      <UniqueIdentifier>{e25487db-999c-4ef1-b812-3b4d6a30bbc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Headerdateien\ADS">
+      <UniqueIdentifier>{c7348e17-d73e-4d85-9891-e2d9928c72f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Quelldateien\ADS">
+      <UniqueIdentifier>{375d6c2c-9041-4bab-a4b4-fdc0884ee981}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GridServerV2.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="Auxillary\backgroundtask.cpp">
+      <Filter>Quelldateien\Auxillary</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices\fenswitchgeardevice.cpp">
+      <Filter>Quelldateien\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices\gridbreakerclass.cpp">
+      <Filter>Quelldateien\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices\gridconverterclass.cpp">
+      <Filter>Quelldateien\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices\griddeviceclass.cpp">
+      <Filter>Quelldateien\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices\gridnodeclass.cpp">
+      <Filter>Quelldateien\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid\gridfile.cpp">
+      <Filter>Quelldateien\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid\gridhandler.cpp">
+      <Filter>Quelldateien\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Grid\gridserver.cpp">
+      <Filter>Quelldateien\Grid</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\modbusdatatransfer.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\modbusinterface.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\modbusinterfacehandler.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\modbusTCPinterface.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\modbusUDPinterface.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\networkinterface.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\servercommunicationclass.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\tcpclientinterface.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\tcpserverinterface.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\udpclientinterface.cpp">
+      <Filter>Quelldateien\Network</Filter>
+    </ClCompile>
+    <ClCompile Include="eventhandler.cpp">
+      <Filter>Quelldateien</Filter>
+    </ClCompile>
+    <ClCompile Include="ADS\adsinterface.cpp">
+      <Filter>Quelldateien\ADS</Filter>
+    </ClCompile>
+    <ClCompile Include="ADS\adsconverterinterface.cpp">
+      <Filter>Quelldateien\ADS</Filter>
+    </ClCompile>
+    <ClCompile Include="ADS\adsinterfacehandler.cpp">
+      <Filter>Quelldateien\ADS</Filter>
+    </ClCompile>
+    <ClCompile Include="Communication\modbusconverterinterface.cpp">
+      <Filter>Quelldateien\Communication</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices\converterdevice.cpp">
+      <Filter>Quelldateien\Devices</Filter>
+    </ClCompile>
+    <ClCompile Include="Devices\scibreakbreakerdevice.cpp">
+      <Filter>Quelldateien\Devices</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Auxillary\backgroundtask.h">
+      <Filter>Headerdateien\Auxillary</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication\breakercommunicationdefines.h">
+      <Filter>Headerdateien\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication\convertercommunicationdefines.h">
+      <Filter>Headerdateien\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication\converterDataStructure.h">
+      <Filter>Headerdateien\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication\fenswitchgearcommunicationdefines.h">
+      <Filter>Headerdateien\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication\genericcommunicationdefines.h">
+      <Filter>Headerdateien\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication\gridcommunicationdefines.h">
+      <Filter>Headerdateien\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication\gridfiledatatypes.h">
+      <Filter>Headerdateien\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication\servercommunicationdefines.h">
+      <Filter>Headerdateien\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices\fenswitchgeardevice.h">
+      <Filter>Headerdateien\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices\gridbreakerclass.h">
+      <Filter>Headerdateien\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices\gridconverterclass.h">
+      <Filter>Headerdateien\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices\griddeviceclass.h">
+      <Filter>Headerdateien\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices\gridnodeclass.h">
+      <Filter>Headerdateien\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid\gridfile.h">
+      <Filter>Headerdateien\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid\gridhandler.h">
+      <Filter>Headerdateien\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Grid\gridserver.h">
+      <Filter>Headerdateien\Grid</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\modbusdatatransfer.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\modbusinterface.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\modbusinterfacehandler.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\modbusTCPinterface.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\modbusUDPinterface.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\networkinterface.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\servercommunicationclass.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\tcpclientinterface.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\tcpserverinterface.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\udpclientinterface.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="config.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="debugoutput.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="eventhandler.h">
+      <Filter>Headerdateien</Filter>
+    </ClInclude>
+    <ClInclude Include="adsinterfacehandler.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="adsinterface.h">
+      <Filter>Headerdateien\Network</Filter>
+    </ClInclude>
+    <ClInclude Include="ADS\adsinterface.h">
+      <Filter>Headerdateien\ADS</Filter>
+    </ClInclude>
+    <ClInclude Include="ADS\adsinterfacehandler.h">
+      <Filter>Headerdateien\ADS</Filter>
+    </ClInclude>
+    <ClInclude Include="ADS\TcAdsAPI.h">
+      <Filter>Headerdateien\ADS</Filter>
+    </ClInclude>
+    <ClInclude Include="ADS\TcAdsDef.h">
+      <Filter>Headerdateien\ADS</Filter>
+    </ClInclude>
+    <ClInclude Include="ADS\adsconverterinterface.h">
+      <Filter>Headerdateien\ADS</Filter>
+    </ClInclude>
+    <ClInclude Include="Communication\modbusconverterinterface.h">
+      <Filter>Headerdateien\Communication</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices\converterdevice.h">
+      <Filter>Headerdateien\Devices</Filter>
+    </ClInclude>
+    <ClInclude Include="Devices\scibreakbreakerdevice.h">
+      <Filter>Headerdateien\Devices</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
